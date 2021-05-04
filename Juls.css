@@ -1,0 +1,279 @@
+/* links to About, Contact, Danpuccino, Quesadilla.html*/
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+
+/* FOOTER AND HEADER -- DON'T REMOVE*/
+
+	.navigat{
+		transition: background-color 0.5s ease;
+		height: 123px;
+		width: 100%;
+		background-color: #000000;
+
+		overflow: hidden;
+	}
+
+	.navigat:hover{
+		transition: background-color 0.5s ease;
+		background-color: #472901;
+	}
+
+	/*header danlogo*/
+	.danlogo{
+		width: 200px;
+		height: auto;
+		padding: 10px 40px;
+	}
+
+	/*footer danlogo*/
+	.danlogo2{
+		width: 150px;
+		height: auto;
+		padding: 18px 20px;
+	}
+
+	.navigat ul{
+		float: right;
+		margin-right: 20px;
+		padding-top: 20px;
+		font-family: 'Merriweather';
+	}
+
+	.navigat ul li{
+		list-style: none;
+		margin: 0 8px;
+		display: inline-block;
+		line-height: 80px;
+	}
+
+	.navigat ul li a{
+		transition: background-color 0.5s ease;
+		padding: 10px 10px 10px 10px;
+		text-decoration: none;
+		color: #FFFFFF;
+		font-size: 15px;
+	}
+	.navigat ul li a:hover{
+		transition: background-color 0.5s ease;
+		text-decoration: none;
+		color: #000000;
+		background-color: #FFFFFF;
+		padding: 10px 10px 10px 10px;
+		font-size: 15px;
+	}
+
+	.copyright{
+		height: 70px;
+		width: 100%;
+		background-color: #FFFFFF;
+		font-family: Merriweather;
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		vertical-align: middle;
+		clear: both;
+	}
+
+	main{
+		
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.col{
+		background-color: black;
+		color: white;
+		font-family: Merriweather;
+		width: 33.333%;
+		height: 500px;
+		float: left;
+	}
+
+	.col > p{
+		font-size: 14px;
+		padding: 30px;
+		margin-top: -30px;
+	}
+
+	.col2 ul li{
+		list-style: none;
+		text-decoration: none;
+		line-height: 5px;
+	}
+
+	.col2 ul li a{
+		text-decoration: none;
+		color: white;
+	}
+
+	.col2 ul li a:hover{
+		transition: color 0.5s ease;
+		text-decoration: none;
+		color: orange;
+	}
+
+
+/* END OF FOOTER AND HEADER */
+
+/*CONTENTS*/
+
+
+	 .daniels{
+	 background-image: url('img/daniels-bg.jpg');
+ 		background-size: cover;
+
+ 		background-position: center center;
+ 		background-repeat: no-repeat;
+ 		height: 100vh;
+
+ 		width: 100%;
+
+	}
+
+	.beverages{
+		background-image: url('img/bevs.jpg');
+ 		background-position: center center;
+ 		background-repeat: no-repeat;
+ 		height: 300vh;
+
+ 		width: 100%;
+	}
+
+	.fruits{
+		background-image: url('img/fruit.jpg');
+ 		background-position: center center;
+ 		background-repeat: no-repeat;
+ 		height: 270vh;
+
+ 		width: 100%;
+	}
+
+/*LIGHTBOX*/
+
+
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: Merriweather;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+	opacity:80%;    
+	transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+
+/* Buttons */
+
+.buttonfb, .buttonin {
+		transition: background-color 1.5s ease;
+		background-color: #FFFFFF;
+		border: none;
+		color: brown;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+
+	}
+
+.buttonin:hover {
+		transition: background-color 1s ease;
+		background-color: darkviolet;
+		color: white;
+}
+
+.buttonfb:hover {
+		transition: background-color 1s ease;
+		background-color: #4267B2;
+		color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*END OF CONTENTS*/
+
+/*media responsive css*/
+/*don't remove*/
+
+	@media only screen and (max-width: 768px){
+
+		.col{
+			width: 100%;
+		}
+
+	}
+
+
+	@media only screen and (max-width: 480px){
+
+		.col{
+			width: 100%;
+		}
+
+	}
+
+
+
